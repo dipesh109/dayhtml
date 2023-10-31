@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)); */
+  /* background: linear-gradient(
+    -45deg,
+    rgba(255, 128, 255, 0.6),
+    #e2dce6,
+    rgba(255, 102, 255, 0.6) */
+  background: rgb(202, 177, 231);
+}
+.img{
+  
+  float:left;
+  margin: 
+}
+.logo1{
+  border-radius: 50%;
+  height: 80px;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 700px;
+  margin-left: -500px;
+}
+.square {
+  display: flex;
+  background-color: rgba(174, 137, 220, 0.5);
+  /* border: 2px solid rgb(174, 137, 220); */
+  border-radius: 20px;
+  /* box-shadow: 0 0 10px rgba(174, 137, 220,0.8) */
+
+  position: relative;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  /* border: 2px solid ; */
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+/* .avatar {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+} */
+.login h2 {
+  font-size: 2em;
+  color: #000;
+  margin-top: 30px;
+}
+.login .inputBx {
+  position: relative;
+  width: 100%;
+}
+.login .inputBx input {
+  position: relative;
+  width: 100%;
+  padding: 12px 20px;
+  background: transparent;
+  border: 2px solid #000;
+  border-radius: 40px;
+  font-size: 1.2em;
+  color: #000;
+  box-shadow: none;
+  outline: none;
+}
+
+.square .login .inputBx input[type="text"] {
+  font-family: "fontAwesome";
+}
+.square .login .inputBx input[type="email"] {
+  font-family: "fontAwesome";
+}
+.square .login .inputBx input[type="number"] {
+  font-family: "fontAwesome";
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.square .login .inputBx input[type="submit"] {
+  /* align-items:self-end; */
+  margin-top: 35px;
+  margin-left: 250px;
+  width: 100px;
+  background: #0078ff;
+  background: linear-gradient(45deg, #ff357a, #fff172);
+  border: none;
+  cursor: pointer;
+}
+.login .inputBx input::placeholder {
+  color: rgba(0, 0, 0, 0.75);
+}
+/* .login .links {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.login .links a {
+  color: #000;
+  text-decoration: none;
+}
+.inputBx a:hover {
+  opacity: 0.8;
+}
+.links a:hover {
+  color: #1a53ff;
+} */
